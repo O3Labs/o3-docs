@@ -1,0 +1,86 @@
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  font-size: 14px;
+}
+
+body {
+  background-color: #2E3336;
+  margin: 0;
+  color: white;
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: none; /* Never autoresize text */
+  height: 100vh;
+  width: 100vw;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4rem;
+  width: 100%;
+  background-color: #2E3336;
+  z-index: 99;
+  display: flex;
+  border-bottom: 4px solid white;
+  box-sizing: border-box;
+}
+
+nav .nav-links {
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  right: 0;
+  top: 1rem;
+}
+
+nav .link {
+  padding: 0 2rem;
+  color: white;
+}
+
+nav .page-title-container {
+  position: relative;
+  flex: 1;
+}
+
+nav .page-title {
+  color: white;
+  font-size: 2rem;
+  width: 50%;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+nav .logo-container {
+  color: white;
+  display: flex;
+  font-size: 2.5rem;
+  align-items: flex-end;
+  transform: translateY(-0.55rem);
+  width: 16.5rem;
+  justify-content: center;
+}
+
+nav .logo {
+  height: 2.5rem;
+  padding-left: 0.25rem;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  padding-top: 4rem;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
