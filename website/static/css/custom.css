@@ -1,0 +1,30 @@
+/* your custom css */
+
+.wrapper {
+  max-width: none;
+}
+
+.navPusher {
+  height: 100vh;
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 1024px) {
+  .separateOnPageNav .wrapper, .separateOnPageNav .headerWrapper.wrapper {
+    max-width: none;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+  .wrapper {
+    max-width: none;
+  }
+}
