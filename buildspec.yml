@@ -16,7 +16,6 @@ phases:
       - ls build
   post_build:
     commands:
+      - cd build
+      - aws s3 sync --delete . "s3://network.o3.docs"
       - echo Build completed on `date`
-artifacts:
-  files:
-    - website/build/**/*
