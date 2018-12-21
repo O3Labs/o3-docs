@@ -40,7 +40,7 @@ const siteConfig = {
   headerLinks: [
     {doc: 'intro', label: 'User Guides'},
     {page: 'neoDapi', label: 'NEO dAPI'},
-    // {page: 'help', label: 'Help'},
+    {page: 'ontDapi', label: 'ONT dAPI'},
   ],
 
   // If you have users set above, you add it here:

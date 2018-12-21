@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo pre build config
+      - cd website
+      - yarn install
+  build:
+    commands:
+      - echo build config
+      - yarn build
+      - ls build
+  post_build:
+    commands:
+      - echo Build completed on `date`
+artifacts:
+  files:
+    - website/build/**/*
