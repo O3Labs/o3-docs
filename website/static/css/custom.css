@@ -28,3 +28,20 @@
     max-width: none;
   }
 }
+
+
+body.embed .fixedHeaderContainer{
+  display: none;
+}
+
+body.embed .navPusher{
+  padding: 0;
+}
+
+body.embed #docsNav{
+  display: none;
+}
+
+body.embed .container.mainContainer{
+  padding: 0;
+}
