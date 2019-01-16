@@ -45,3 +45,7 @@ body.embed #docsNav{
 body.embed .container.mainContainer{
   padding: 0;
 }
+
+body.embed .docs-prevnext {
+  display: none;
+}
