@@ -7,7 +7,7 @@ title: Ontology Staking
 
 Ontology uses the VBFT consensus mechanism to secure it's network. At any given time, there will be 7 nodes who have been voted in by the community to participate in consensus every block. Users vote for nodes that they trust by staking their ONT tokens in multiples of 500 tokens per stake. Users are free to stake in any node they please, change the node they would like to stake their tokens with, and withdraw their staked ONT back into their wallets.
 
-Staking is managed in terms of rounds, which are comprised of 120,000 blocks each. Each block can range from 1 second to 30 seconds (3 when there are transactions queued in the block, and 30 when there are not), which means each round can range in time anywhere from 33 hours to 42 days. When a user stakes their ONT for a node, they are actually locking their ONT in a smart contract for a round to secure their vote. Any time a user would like to add or remove stakes for a node, they can submit a request to carry out that action in the following round.
+Staking is managed in terms of rounds, which are comprised of 120,000 blocks each. Each block can range from 1 second to 30 seconds (1 when there are transactions queued in the block, and 30 when there are not), which means each round can range in time anywhere from 33 hours to 42 days. When a user stakes their ONT for a node, they are actually locking their ONT in a smart contract for a round to secure their vote. Any time a user would like to add or remove stakes for a node, they can submit a request to carry out that action in the following round.
 
 ## Why should you stake?
 
