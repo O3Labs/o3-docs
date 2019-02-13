@@ -1,3 +1,8 @@
+---
+id: privateKeysAddressesAndSignatures
+title: Private Keys, Addresses, and Signatures
+---
+
 So you've just created your first wallet, and are ready to jump into the crypto world. Despite all the scary things you might hear about cryptocurrencies, there are really only two things that you need to know well to get started that are different from a traditional web service. Your private key, and your address. 
 
 ## What is a private Key?
