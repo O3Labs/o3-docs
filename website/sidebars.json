@@ -1,7 +1,8 @@
 {
   "docs": {
     "Welcome": [
-      "intro"
+      "intro",
+      "pkey_guide"
     ],
     "O3 Apps": [
       "appsIntro"
