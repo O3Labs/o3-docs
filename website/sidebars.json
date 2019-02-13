@@ -2,7 +2,7 @@
   "docs": {
     "Welcome": [
       "intro",
-      "pkey_guide"
+      "privateKeys,Addresses,AndSignatures"
     ],
     "O3 Apps": [
       "appsIntro"
