@@ -25,16 +25,13 @@ const siteConfig = {
   tagline: 'Your guide to the smart economy',
   url: 'https://docs.o3.network', // Your website URL
   baseUrl: '/', // Base URL for your project */
-  // For github.io type URLs, you would set the url and baseUrl like:
-  //   url: 'https://facebook.github.io',
-  //   baseUrl: '/test-site/',
 
   // Used for publishing and more
   projectName: 'o3-docs',
   organizationName: 'O3Labs',
-  // For top-level user or org sites, the organization is still the same.
-  // e.g., for the https://JoelMarcey.github.io site, it would be set like...
-  //   organizationName: 'JoelMarcey'
+
+  gaTrackingId: 'UA-112635659-12',
+  gaGtag: true,
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
