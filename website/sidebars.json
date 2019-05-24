@@ -12,6 +12,9 @@
     ],
     "Ontology": [
       "ontStake"
+    ],
+    "External Accounts": [
+      "externalAccountsCoinbase"
     ]
   },
   "docs-other": {
