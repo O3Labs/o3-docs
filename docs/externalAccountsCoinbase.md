@@ -68,3 +68,16 @@ In the case that you set a daily limit on the initial authorization that was les
 In the case that you are in the middle of making a payment, and it detects that your daily limit is not enough, the wallet will automatically promt you to update your connection. Upon updating, it will return you to the requested payment authorization.
 
 If you want to do it manually you can simply navigate to the Settings tab in your wallet, click on "Manage external accounts", click "disconnect", and then Connect again. From here the process will be the same as your first connection.
+
+#### VERY IMPORTANT
+When reconnecting, please be sure to up the daily limit. This is how much you can transfer from your account each day.
+
+![](/img/coinbase/screenshotCoinbaseAuth.png)
+
+![](/img/coinbase/screenshotSpendingLimit.png)
+
+## Making the most of your Coinbase connection
+
+Now that you are setup to make payments directly from your Coinbase account let's see how you can maximize it's benefits. First off, if you are in a region which allows you to make a bank transfer purchase of USDC, Coinbase allows you to load up your account with USDC directly from your bank account without any fees, and with that USDC you can make payments without any additional fees (except the Ethereum miner fee if sending on chain, at time of writing about 5 cents). This coupled with your connection in your O3 wallet, you can effectively buy your favorite NEO and Ontology based assets via the O3 Swap dApp. This end to end process provides the the quickest route from your bank account to NEO/ONT with the least amount of fees.
+
+For those of you in regions that do not support the purchase of USDC on Coinbase, this new connection with the O3 wallet also works with other currencies found on Coinbase, such as BTC or ETH. So now when you are using the O3 Swap app to quickly swap your BTC for NEO/ONT, and skip any additionaly KYC, dealing with orderbooks on other exchanges, and paying additional withdraw fees. With this new integration you can make a purchase of NEO/ONT with BTC/ETH/USDC directly from your Coinbase account to your Ledger device.
