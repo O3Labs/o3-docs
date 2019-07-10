@@ -20,6 +20,8 @@ You can update one of the existing `.md` files, or add a new file. If you add a 
 
 https://github.com/O3Labs/o3-docs/blob/master/website/sidebars.json
 
+If you'd like to modify the dAPI docs, you can find them [in the o3-dapi repository](https://github.com/O3Labs/o3-dapi/tree/master/packages/neo/docs).
+
 ### Viewing a file while editing
 
 After adding your new document to the `sidebars.json`, you can run the website locally.
