@@ -20,6 +20,21 @@ You can update one of the existing `.md` files, or add a new file. If you add a 
 
 https://github.com/O3Labs/o3-docs/blob/master/website/sidebars.json
 
+#### Including Images in your Markdown
+
+All image files should be placed into the following main folder. If you are making a new tutorial, please make a new subfolder for all images related to that tutorial.
+
+https://github.com/O3Labs/o3-docs/tree/master/website/static/img
+
+Once the images are in this folder, they can be referenced in your markdown file using:
+
+```
+![](/img/<sub_folder>/<image_name>.png)
+```
+
+For an example, please see the Ont Stake Tutorial:
+https://raw.githubusercontent.com/O3Labs/o3-docs/master/docs/ontStake.md
+
 ### Viewing a file while editing
 
 After adding your new document to the `sidebars.json`, you can run the website locally.
