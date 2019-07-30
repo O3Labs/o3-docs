@@ -56,5 +56,7 @@ yarn start
 
 A new browser window should pop up at `http://localhost:3000`, with the site loaded. From now on, any changes that you save into your markdown file will be automatically updated on the local version of the site.
 
+![](./readme_assets/O3docsRefresh.gif)
+
 ### Publishing
 Once you are done, commit your changes to a new branch, and submit a PR to the main repo. Once merged in, the automated scripts will handle updating the live site with your changes.
