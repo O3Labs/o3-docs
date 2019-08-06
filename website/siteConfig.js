@@ -36,8 +36,8 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'intro', label: 'User Guides'},
-    {page: 'neoDapi', label: 'NEO dAPI'},
-    {page: 'ontDapi', label: 'ONT dAPI'},
+    {href: 'https://neodapidocs.o3.network', label: 'NEO dAPI'},
+    {href: 'https://ontdapidocs.o3.network', label: 'ONT dAPI'},
   ],
 
   // If you have users set above, you add it here:
