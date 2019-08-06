@@ -16,8 +16,8 @@
     max-width: none;
   }
 
-  .siteNavGroupActive .siteNavItemActive {
-    font-weight: 600;
+  .navigationSlider .slidingNav ul li.siteNavGroupActive a, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li a:hover {
+      font-weight: 600;
   }
 }
 
