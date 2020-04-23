@@ -1,7 +1,13 @@
 version: 0.2
 
+env:
+  variables:
+    BUCKET_NAME: "docs.o3.network"
+    DISTRIBUTION_ID: "E1ZUG2HQGNQL79"
 phases:
   install:
+    runtime-versions:
+        nodejs: 10
     commands:
       - npm install -g yarn
   pre_build:
