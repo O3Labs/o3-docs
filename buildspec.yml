@@ -2,8 +2,8 @@ version: 0.2
 
 env:
   variables:
-    BUCKET_NAME: "docs.o3.network"
-    DISTRIBUTION_ID: "E1ZUG2HQGNQL79"
+    BUCKET_NAME: "docs-o3.network"
+    DISTRIBUTION_ID: "E11QX884F3B4SX"
 phases:
   install:
     runtime-versions:
