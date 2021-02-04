@@ -58,6 +58,7 @@ class HomeSplash extends React.Component {
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
             <Button href={docUrl('intro.html')}>User Guides</Button>
+            <Button href='https://ethdapidocs.o3.network'>ETH dAPI</Button>
             <Button href='https://neodapidocs.o3.network'>NEO dAPI</Button>
             <Button href='https://ontdapidocs.o3.network'>ONT dAPI</Button>
           </PromoSection>

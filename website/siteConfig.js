@@ -36,6 +36,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'intro', label: 'User Guides'},
+    {href: 'https://ethdapidocs.o3.network', label: 'ETH dAPI'},
     {href: 'https://neodapidocs.o3.network', label: 'NEO dAPI'},
     {href: 'https://ontdapidocs.o3.network', label: 'ONT dAPI'},
   ],
