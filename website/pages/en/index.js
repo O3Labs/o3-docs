@@ -59,7 +59,8 @@ class HomeSplash extends React.Component {
           <PromoSection>
             <Button href={docUrl('intro.html')}>User Guides</Button>
             <Button href='https://ethdapidocs.o3.network'>ETH dAPI</Button>
-            <Button href='https://neodapidocs.o3.network'>NEO dAPI</Button>
+            <Button href='https://neodapidocs.o3.network'>NEO Legacy dAPI</Button>
+            <Button href='https://neo3dapidocs.o3.network'>NEO N3 dAPI</Button>
             <Button href='https://ontdapidocs.o3.network'>ONT dAPI</Button>
           </PromoSection>
         </div>

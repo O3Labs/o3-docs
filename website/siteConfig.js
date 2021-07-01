@@ -37,7 +37,8 @@ const siteConfig = {
   headerLinks: [
     {doc: 'intro', label: 'User Guides'},
     {href: 'https://ethdapidocs.o3.network', label: 'ETH dAPI'},
-    {href: 'https://neodapidocs.o3.network', label: 'NEO dAPI'},
+    {href: 'https://neodapidocs.o3.network', label: 'NEO Legacy dAPI'},
+    {href: 'https://neo3dapidocs.o3.network', label: 'NEO N3 dAPI'},
     {href: 'https://ontdapidocs.o3.network', label: 'ONT dAPI'},
   ],
 
